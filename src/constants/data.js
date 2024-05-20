@@ -2,57 +2,57 @@ import images from './images';
 
 const wines = [
   {
-    title: 'Chapel Hill Shiraz',
-    price: '$56',
-    tags: 'AU | Bottle',
+    title: 'paneer kadayi',
+    price: 'Rs 56',
+    tags: 'Spicy | Large',
   },
   {
-    title: 'Catena Malbee',
-    price: '$59',
-    tags: 'AU | Bottle',
+    title: 'South Indian Meals',
+    price: 'Rs 101',
+    tags: 'papad | Gulab jamun',
   },
   {
-    title: 'La Vieillw Rose',
-    price: '$44',
-    tags: 'FR | 750 ml',
+    title: "Butter Naan",
+    price: 'Rs 144',
+    tags: 'small | large',
   },
   {
-    title: 'Rhino Pale Ale',
-    price: '$31',
-    tags: 'CA | 750 ml',
+    title: 'mashroom Biryani',
+    price: 'Rs 231',
+    tags: 'half | large',
   },
   {
-    title: 'Irish Guinness',
-    price: '$26',
-    tags: 'IE | 750 ml',
+    title: 'Hydrabadi Biryani',
+    price: 'Rs 226',
+    tags: 'Kaju | Paneer',
   },
 ];
 
 const cocktails = [
   {
-    title: 'Aperol Sprtiz',
-    price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    title: 'A T Special Chicken Biryani',
+    price: 'Rs 320',
+    tags: 'Roasted chicken | kaju grevy | soda | Gulab jamun',
   },
   {
-    title: "Dark 'N' Stormy",
-    price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
+    title: "Chicken kadayi",
+    price: 'Rs 116',
+    tags: 'small | Large | ',
   },
   {
-    title: 'Daiquiri',
-    price: '$10',
-    tags: 'Rum | Citrus juice | Sugar',
+    title: 'Dum Biryani',
+    price: 'Rs 210',
+    tags: 'Boiled Chicken | Special chatni | salad',
   },
   {
-    title: 'Old Fashioned',
-    price: '$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
+    title: 'Roti curry combo',
+    price: 'Rs 85',
+    tags: 'Maida  | additinal Ghee | Kaju curry',
   },
   {
-    title: 'Negroni',
-    price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+    title: 'Bucket Biryani',
+    price: 'Rs 226',
+    tags: '4 Leg piece | Basumati | Hydarabadi style ',
   },
 ];
 

@@ -7,12 +7,12 @@ import {
   useNavigate,
   useLocation,
 } from "react-router-dom";
-export default function Home() {
+export default function Login() {
 
 
 // console.log(arr.)
   return (
-    <div className={css.homeBody}>
+    <div className={css.homeBody}   >
       <div className={css.home}>
           <div className={css.loginpage}>
             <div className={css.headingText}>
@@ -45,3 +45,4 @@ export default function Home() {
     </div>
   );
 }
+
