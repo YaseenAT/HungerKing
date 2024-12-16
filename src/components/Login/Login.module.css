@@ -14,13 +14,18 @@
   
   }
   .home{
-    background-image: url("../../assets//BgImage.jpg");
+    background-image: url("../../assets/greenery-transformed.jpeg");
+    /* background-image: url("../../assets//BgImage.jpg"); */
     background-color: #cccccc;
     height: 640px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid white; */
   }
   .left {
     background: linear-gradient(to bottom, #82c729, #29a63a);
@@ -34,6 +39,7 @@
     left: 12px;
     justify-content: center;
     align-items: center;
+    
   }
   .outletcss {
     position: absolute;
@@ -45,19 +51,18 @@
   }
   
   .loginpage{
-    border: .1rem solid rgb(53, 26, 26);
+    border: .1rem solid rgb(122, 116, 116);
     height: 25rem;
     width: 20rem;
     border-radius: 1rem;
-    background: linear-gradient(to bottom, #82c729, #29a63a);
+    /* background: #575555;  */
   }
   .head1{
     /* background-color: red; */
     display:  flex;
     flex-direction: row;
   }
-  .miniBody{
-    margin-top: 1rem;
+  .miniBody{ 
     /* border: .1rem solid red; */
     display: flex;
     flex-direction: column;
@@ -73,18 +78,24 @@
   }
   .head1 input{
     /* background-color: gray; */
-    height: 25px;
-    border-radius: 10px;
+    height: 28px;
+    border-radius: 3px;
     border: none;
     width: 200px;
+    padding: 5px;
+    outline: none;
   }
   button{
-    width: 120px;
-    border-radius: 10px;
-    background-color: #82c729;
+    width: 200px;  
+    gap: 25px;
+    /* display: flex; */
+    /* flex-direction: row; */
+    margin-top: 35px;
     height: 30px;
-    margin-top: 3rem;
-
+    background-color: rgb(255, 123, 0);
+    color: white;
+    font-weight: 600;
+    
   }
   .headingText{
     display: flex;
@@ -94,4 +105,28 @@
     padding: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500;
+    color: aliceblue;
+    font-size: 30px;
+  }
+  .homeBody{
+/* border: 2px solid red; */
+/* display: flex; */
+/* justify-content: center; */
+/* align-items: center; */
+  }
+  .upperBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 0.5px solid rgb(158, 147, 147);
+    border-radius: 25px;
+    width: 900px;
+    padding: 25px;
+    background-color: #302e2e73;
+    margin-top: 125px;
+  }      
+  .imageDiv {
+    margin-left: 50px;
+    height: 350px;
+    width: 400px; 
   }
