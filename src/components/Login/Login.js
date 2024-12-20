@@ -37,39 +37,47 @@ export default function Login() {
           </div>
           <div className={css.loginpage}>
             <div className={css.headingText}>
-              <label htmlFor="logIn"> { Register? "Sign up": "Login"}</label>
+              <label htmlFor="logIn"> {Register ? "Sign up" : "Login"}</label>
             </div>
             <div className={css.miniBody}>
-              <div className={css.head1}>
+              {Register && <div className={css.head1}>
+                {/* <label>User Name</label> */}
+                <input type="text" placeholder="Enter Email " />
+              </div>}
+              {!Register && <div className={css.head1}>
                 {/* <label>User Name</label> */}
                 <input type="text" placeholder="Enter User Name" />
-              </div>
+              </div>}
 
               <div className={css.head1}>
                 {/* <label>Password</label> */}
                 <input type="password" placeholder="Enter Password" />
               </div>
-              <div style={{ color: "#fff", fontSize: "12px", opacity: "0.5", marginLeft: "100px", marginTop: "-15px" }} >
+              {Register && <div className={css.head1}>
+                {/* <label>Password</label> */}
+                <input type="password" placeholder="Confirm Password" />
+              </div>}
+              {!Register && <div style={{ color: "#fff", fontSize: "12px", opacity: "0.5", marginLeft: "100px", marginTop: "-15px" }} >
                 {" "}
                 Forgot password?{" "}
 
-              </div>
+              </div>}
               <div className={css.button}>
-              {  Register ?
-                <button
-                  onClick={() => {
-                    nav("/")
-                  }}
-                >
-                  Log In
-                </button> :
-                <button
-                  onClick={() => {
-                    nav("/")
-                  }}
-                >
-                  Sign up
-                </button>
+                {Register ?
+                  <button
+                    onClick={() => {
+                      nav("/")
+                    }}
+                  >
+                    Log In
+                  </button> :
+                  <button
+                    onClick={() => {
+                      nav("/")
+                    }}
+                  >
+                    Sign up
+                  </button>
                 }
 
               </div>
