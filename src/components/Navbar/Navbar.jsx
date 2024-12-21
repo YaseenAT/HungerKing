@@ -39,7 +39,7 @@ const Navbar = () => {
           Log In / Registration
         </a>
         
-        <a style={{"cursor":"pointer"}} className="p__opensans">
+        <a style={{"cursor":"pointer"}} onClick={()=>{nav("/OrderDashboard")}} className="p__opensans">
           Book Table
         </a>
       </div>
